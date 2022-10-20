@@ -44,3 +44,12 @@ input[type="checkbox"]:after{
   bottom: 0;
   transition: 0.3s;
 }
+input[type="checkbox"]:before{
+  height: 50px;
+  width: 50px;
+  background-color: #ececec;
+  box-shadow: -7px -7px 15px rgba(255,255,255,0.75),
+    7px 7px 15px rgba(70,70,70,0.12);
+  border-radius: 50%;
+  left: 15px;
+}
