@@ -53,3 +53,40 @@ input[type="checkbox"]:before{
   border-radius: 50%;
   left: 15px;
 }
+
+input[type="checkbox"]:after{
+  height: 15px;
+  width: 15px;
+  background-color: #7a7a7a;
+  border-radius: 50%;
+  right: -55px;
+}
+input[type="checkbox"]:checked:before{
+  left: 86px;
+}
+input[type="checkbox"]:checked:after{
+  background-color: #55f696;
+}
+a{
+    color: #4d4d4d;
+    font-family: "Rubik",sans-serif;
+    position:absolute;
+    right:20px ;
+    top:20px;
+    border:2px solid #4d4d4d;
+    text-decoration:none;
+}
+
+@media screen and (min-width: 451px) {
+  a{
+    font-size: 20px;
+     padding:8px 12px 8px 12px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  a{
+    font-size: 16px;
+     padding:5px 8px 5px 8px;
+  }
+}
